@@ -1,0 +1,11 @@
+{
+	"name": "ls_adls",
+	"properties": {
+		"description": "linked service pointing to stgacccaresync adls storage",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stgacccaresync.dfs.core.windows.net/"
+		}
+	}
+}
